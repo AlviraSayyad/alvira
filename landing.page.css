@@ -1,0 +1,80 @@
+.navbar{
+    background-color: rgb(213, 211, 211);
+    height: 3%;
+    padding: 2%;
+    display: flex;
+}
+.logo{
+    margin-top: -1%;
+    color: blue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav{
+    margin-left: 5%;
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+    font-size: large;
+}
+.nav:hover{
+    background-color: black;
+    color: #fff;
+}
+.container{
+    border-bottom: 3px solid;
+    padding: 3% 5%;
+}
+.service{
+    margin-top: 5%;
+}
+.srvices-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .service-box
+ {
+    border: 1px solid #949292;
+    padding: 10px;
+    flex-basis: 32%;
+   max-width: 370px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 15px;
+ }
+ .service-box h3{
+    margin: 5px 0 10px;
+ }
+ .service-box p{
+    margin: 0 0 10px;
+ }
+ .call-to-action a{
+    background: gray;
+    color: #fff;
+    padding: 8px 30px;
+    display: block;
+    border: 2px solid transparent;
+ }
+ .call-to-action a:hover{
+    background: transparent;
+    border: 2px solid gray;
+    color:gray;
+ }
+ .call-to-action{
+    align-self: flex-start;
+    margin-top: auto;
+ }
+ .service-box img{
+    width: 100%;
+   
+ }
+.contact-form{
+    width: 40%;
+    border: 1px solid;
+    display: grid;
+
+}
+@media screen and (max-width: 992px) {
+ 
+}
